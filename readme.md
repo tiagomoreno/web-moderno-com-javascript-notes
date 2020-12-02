@@ -1,0 +1,1 @@
+Este repositório foi criado para compartilhar conhecimento e servir de apoio aos meus estudos. Todo o conteúdo dele é baseado no curso Web Moderno com Javascript + Projetos da escola https://www.cod3r.com.br/
