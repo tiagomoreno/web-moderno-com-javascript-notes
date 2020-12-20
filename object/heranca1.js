@@ -15,5 +15,4 @@ console.log(Object.prototype.__proto__)
 
 function meuobjeto(){}
 console.log(typeof Object, typeof meuobjeto)
-
-console.log(Object.prototype)
+console.log(Object.prototype, meuobjeto.prototype)

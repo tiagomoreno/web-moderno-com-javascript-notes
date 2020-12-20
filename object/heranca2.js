@@ -17,7 +17,7 @@ const carro = {
         }     
     },
     status(){
-        return `${this.velAtual} Km/h de ${this.velMax} km/h`
+        return `${this.velAtual}Km/h de ${this.velMax}km/h`
     }
 }
 
@@ -29,7 +29,7 @@ const ferrari = {
 const volvo = {
     modelo: 'V40',
     status(){
-         return `${this.modelo}: ${super.status}`
+         return `${this.modelo}: ${super.status()}`
     }
 }
 
@@ -39,5 +39,7 @@ Object.setPrototypeOf(volvo, carro)
 
 console.log(ferrari)
 console.log(volvo)
+
 volvo.acelerarMais(100)
 console.log(volvo.status())
+
